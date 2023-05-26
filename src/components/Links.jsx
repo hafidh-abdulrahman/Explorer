@@ -11,14 +11,16 @@ export default function Links() {
       </div>
       <div className="testimonials">
         <div className="testimonial">
-          <p>
-            
-          </p>
+          <p></p>
           <div className="info">
             <img src={avatarImage} alt="" />
             <div className="details">
               <h4>Young Pal</h4>
-              <span>Young Pal</span>
+              <span>
+                <a href="https://mail.google.com/mail/u/0/#inbox">
+                  young1@gmail.com
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -28,7 +30,11 @@ export default function Links() {
             <img src={avatarImage1} alt="" />
             <div className="details">
               <h4>Young Pal</h4>
-              <span>Young Pal</span>
+              <span>
+                <a href="https://mail.google.com/mail/u/0/#inbox">
+                  abdulrahman3@gmail.com
+                </a>
+              </span>
             </div>
           </div>
         </div>
@@ -38,7 +44,11 @@ export default function Links() {
             <img src={avatarImage2} alt="" />
             <div className="details">
               <h4>Young Pal</h4>
-              <span>Software Engineer</span>
+              <span>
+                <a href="https://mail.google.com/mail/u/0/#inbox">
+                  Olawale@gmail.com
+                </a>
+              </span>
             </div>
           </div>
         </div>

@@ -25,12 +25,21 @@ export default function Hero() {
             <label htmlFor="">Check-out</label>
             <input type="date" />
           </div>
-          <div className="container">
-            <label htmlFor="">Check-out</label>
-            <input type="date" />
-          </div>
-          <button>Explore!</button>
+          <button><a href="https://www.google.com/"> Explore! </a></button>
+          {/* <a href="https://www.google.com/">Explore!</a> */}
         </div>
+      </div>
+      <div>
+        <h3>
+          <q>Be Here</q> – a virtual reality experience of Exploring
+        </h3>
+        <p>
+          What’s it like to be a an explorer or tourist ? <br />
+          Explorer chart their own paths of discovery, learning and growth, and
+          each journey is as unique as the individual. Experience the stories of
+          the universe in immersive 360° video
+        </p>
+        <a href="https://www.youtube.com/">Watch the Video</a>
       </div>
     </Section>
   );
@@ -47,6 +56,9 @@ const Section = styled.section`
       width: 100%;
       filter: brightness(60%);
     }
+  }
+  .background{
+    background-color:transparent
   }
   .content {
     height: 100%;

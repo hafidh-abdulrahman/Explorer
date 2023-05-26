@@ -9,8 +9,13 @@ import Destination6 from "../assets/Destination6.png";
 import info1 from "../assets/info1.png";
 import info2 from "../assets/info2.png";
 import info3 from "../assets/info3.png";
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 export default function Recommend() {
+
+
+
   const data = [
     {
       image: Destination1,

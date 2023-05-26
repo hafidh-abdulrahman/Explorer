@@ -35,8 +35,9 @@ export default function Navbar() {
           <li>
             <a href="#testimonials">Links</a>
           </li>
+        
         </ul>
-        <button>Connect</button>
+        <button><a href="" >sign up</a></button>
       </Nav>
       <ResponsiveNav state={navbarState}>
         <ul>
@@ -60,6 +61,7 @@ export default function Navbar() {
               Links
             </a>
           </li>
+         
         </ul>
       </ResponsiveNav>
     </>
@@ -92,7 +94,7 @@ const Nav = styled.nav`
     li {
       a {
         text-decoration: none;
-        color: #0077b6;
+        color: #0071b6;
         font-size: 1.2rem;
         transition: 0.1s ease-in-out;
         &:hover {
@@ -109,7 +111,7 @@ const Nav = styled.nav`
   }
   button {
     padding: 0.5rem 1rem;
-    cursor: pointer;
+    ]cursor: pointer;
     border-radius: 1rem;
     border: none;
     color: black;
@@ -119,7 +121,7 @@ const Nav = styled.nav`
     text-transform: uppercase;
     transition: 0.3s ease-in-out;
     &:hover {
-      background-color: #023e8a;
+      background-color: #4ec1bb;
     }
   }
   @media screen and (min-width: 280px) and (max-width: 1080px) {

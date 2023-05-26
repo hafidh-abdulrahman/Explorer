@@ -9,13 +9,13 @@ export default function Services() {
   const data = [
     {
       icon: service1,
-      title: "Get Best Prices",
+      title: "Get Best Choice",
       subTitle:
-        "Pay through our application and save thousands and get amazing rewards.",
+        "Pay through our application and save thousands and get amazing prizes.",
     },
     {
       icon: service2,
-      title: "Covid Safe",
+      title: "Covid-19 Safe",
       subTitle:
         "We have all the curated hotels that have all the precaution for a covid safe environment.",
     },
@@ -23,7 +23,7 @@ export default function Services() {
       icon: service3,
       title: "Flexible Payment",
       subTitle:
-        " Enjoy the flexible payment through our app and get rewards on every payment.",
+        " Enjoy the flexible payment through our app and get prizes on every payment.",
     },
     {
       icon: service4,

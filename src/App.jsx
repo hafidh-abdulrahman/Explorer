@@ -1,4 +1,4 @@
-import logo from "./assets/logo.jpg"
+// import logo from "./assets/logo.jpg"
 import React, { useEffect } from "react";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar";
 import Recommend from "./components/Recommend";
 import ScrollToTop from "./components/ScrollToTop";
 import Services from "./components/Services";
-import Testimonials from "./components/Links";
+import Links from "./components/Links";
+
 import scrollreveal from "scrollreveal";
 export default function App() {
   useEffect(() => {
@@ -22,7 +23,7 @@ export default function App() {
         #hero,
         #services,
         #recommend,
-        #testimonials,
+        #links,
         footer
         `,
       {
@@ -38,7 +39,7 @@ export default function App() {
       <Hero />
       <Services />
       <Recommend />
-      <Testimonials />
+      <Links />
       <Footer />
     </div>
   );

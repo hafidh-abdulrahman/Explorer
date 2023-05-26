@@ -5,7 +5,20 @@ import { AiFillInstagram } from "react-icons/ai";
 export default function Footer() {
   return (
     <FooterContainer>
-      <span>Copyright &copy; 2021 Travelo. All rights reserved</span>
+      <p>
+        <span class="temperature">
+          64
+          <sup>
+            <small>o</small>
+          </sup>{" "}
+          F / 18
+          <sup>
+            <small>o</small>
+          </sup>{" "}
+          C
+        </span>{" "}
+        Overcast Clouds
+      </p>
       <ul className="links">
         <li>
           <a href="#hero">Home</a>
@@ -20,9 +33,54 @@ export default function Footer() {
           <a href="#testimonials">Links</a>
         </li>
         <li>
-          <a href="#testimonials">Cohh</a>
+          <a href="#testimonials">Contact</a>
         </li>
       </ul>
+      <ul className="link">
+        <li>
+          <a href="https://www.google.com/">Terms of Use</a>
+        </li>
+        <li>
+          <a href="https://www.google.com/">Privacy</a>
+        </li>
+        <li>
+          <a href="https://www.google.com/">Copyright</a>
+        </li>
+        <li>
+          <a href="https://www.google.com/">Trademarks</a>
+        </li>
+        <li>
+          <a href="https://www.google.com/">Non-Discrimination</a>
+        </li>
+        <li>
+          <a href="https://www.google.com/">Accessibility</a>
+        </li>
+        <li>
+          <h1>Developer's contact</h1>
+          <a href="https://mail.google.com/mail/u/0/#inbox">
+            abdulrahmanabdulazeez123@gmail.com
+          </a>
+        </li>
+      </ul>
+
+      {/* <ul>
+        <li>
+          <a href="#">Applying</a>
+        </li>
+        <li>
+          <a href="#">Visiting</a>
+        </li>
+        <li>
+          <a href="#">Giving</a>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul> */}
+
       <ul className="social__links">
         <li>
           <BsFacebook />
@@ -34,18 +92,24 @@ export default function Footer() {
           <BsLinkedin />
         </li>
       </ul>
+      <span>Copyright &copy; 2023 Explorer. All rights reserved</span>
     </FooterContainer>
   );
 }
 
 const FooterContainer = styled.footer`
-  display: flex;
+  display: grid;
   justify-content: space-evenly;
+
+  grid-row-gap: 10px;
   background-color: #d0d8ff;
   border-radius: 0.5rem;
   padding: 2.5rem;
   ul {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: repeat(2, 4fr);
+    grid-row-gap: 10px;
     list-style-type: none;
     gap: 2rem;
     li {
